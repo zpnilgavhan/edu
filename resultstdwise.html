@@ -13,14 +13,14 @@
         <div id="box2" class="box"><a href="https://zpnilgavhan.github.io/edu/index.html">HOME</a>
         </div>
     </div>
-    <div class="box">
+    <div class="bx">
         <div id="wrapper">
             <div class="biodata">
                 <h1>निकाल</h1>
                 <h2>जि प शाळा निळगव्हाण</h2>
                 <h2>Udise No. 27020206701</h2>
                 <div class="std">
-                    <h1><a href="https://zpnilgavhan.github.io/edu/result1.html">इयत्ता - पहिली</a></h1>
+                    <h1><a href="https://zpnilgavhan.github.io/edu/result1.html">इयत्ता-पहिली</a></h1>
                 </div>
                 <div class="std">
                     <h1><a href="#">इयत्ता - दुसरी</a></h1>
@@ -80,15 +80,12 @@
                 margin: auto;
                 text-align: center;
             }
-            .std{
+            .bx{
                 margin: auto;
-                display: inline-flexbox;
-                background-color: #464646;
-                border: solid black 2px;
-                border-radius: 12vh;
-                width:30vh ;
-                padding: 5px;
+                width:auto;
+                text-align: center;
             }
+            
             a{
                 text-decoration: none;
                 color: whitesmoke ;
@@ -138,9 +135,10 @@
             }
         #wrapper{
         display: block;
-        width: 65vh;
+        width: 50vh;
+        height: auto;
         background: #fff;
-        margin: 0 auto;
+        margin:  auto;
         border: solid 1vh  royalblue;
         border-radius: 25px;
         /* padding: 10px 17px;
@@ -150,7 +148,6 @@
         h1{
             text-align: center;
             display: inline-block;
-            padding: 0 10%;
         }
 
         h2{
@@ -163,6 +160,15 @@
             display: flex;
             flex-direction: column;
         }
+        .std{
+                margin: auto;
+                display: inline-flexbox;
+                background-color: #464646;
+                border: solid black 2px;
+                border-radius: 12vh;
+                width:40vh ;
+                padding: 5px 0;
+        }
 
         #keywords {
         margin: 0 auto;
@@ -170,47 +176,9 @@
         margin-bottom: 15px;
         border: solid 0.75vh slateblue;
         border-radius: 25px;
-        padding: 2vh;
         }
-
 
         #keywords thead {
         cursor: pointer;
-        background: #c9dff0;
-        padding: 2vh;
-        }
-        #keywords thead tr th { 
-        font-weight: bold;
-        padding: 2vh 3vh;
-        padding-left: 42px;
-        border-radius: 25px;
-        }
-        #keywords thead tr th span { 
-        padding-right: 20px;
-        background-repeat: no-repeat;
-        background-position: 100% 100%;
-        }
-
-        #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
-        background: #acc8dd;
-        }
-
-        #keywords thead tr th.headerSortUp span {
-        background-image: url('https://i.imgur.com/SP99ZPJ.png');
-        }
-        #keywords thead tr th.headerSortDown span {
-        background-image: url('https://i.imgur.com/RkA9MBo.png');
-        }
-
-
-        #keywords tbody tr { 
-        color: #555;
-        }
-        #keywords tbody tr td {
-        text-align: center;
-        padding: 15px 10px;
-        }
-        #keywords tbody tr td.lalign {
-        text-align: left;
         }
 </style>
