@@ -1,123 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <style>
-        html{
-            font-size: small;
-        }
-        body {
-            /* Set a background color that will be displayed
-                while the background image is loading */
-            background-image: url("https://images.unsplash.com/photo-1587826080692-f439cd0b70da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
-            background-color: #464646;
-            color:whitesmoke;
-            
-        }
-        .container{
-            background-color: black;
-            border: solid 2px purple;
-            display: flex;
-            flex-wrap: wrap;
-            width: 95%;
-            height: auto;
-            margin: auto;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-radius: 25px;
-            justify-content: center;
-            justify-content: space-around;
-            align-items: center;
-            
-        }
-        .box{
-             /* border: solid 2px whitesmoke;  */
-            margin: auto;
-            text-align: center;
-        }
-        a{
-            text-decoration: none;
-            color: whitesmoke ;
-        }
-        a:hover{
-            color: rgb(62, 236, 9);
-            zoom: 110%;
-        }
-        span:hover{
-            color: rgb(62, 236, 9);
-        }
-        .ima1{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .recent{
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            border: solid 2px violet;
-            width: max-content;
-            position: relative;
-            top: 20vh;
-            background-color: rgb(12, 78, 56);
-        }
-       .task{
-           display: inline-flexbox;
-           text-align: center;
-           padding: 2vh;
-           
-       }
-       .task:hover{
-            color: rgb(62, 236, 9);
-       }
-       .xen{
-            /* float: right; */
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            zoom: 1;
-            border: solid 2px whitesmoke;
-            border-radius: 10%;
-            background-color: blueviolet;
-            padding: 1%;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div id="box2" class="box"><a href="https://zpnilgavhan.github.io/contact.io/">Contact Us</a>
-        </div>
-        <div id="box3" class="box"><a href="http://bit.ly/2YxWsLv" target="blank">Apply Online</a>
-        </div>
-        <div id="box4" class="box"><a href="/Aboutus.html">About Us</a>
-        </div>
-        <div id="box4" class="box">
-            <a href="https://zpnilgavhan.github.io/homeM/">मराठीत बघा
-            </a>
-        </div>
-    </div>
-   
-    <div class="recent">
-            <h1>-LATEST ANNOUNCEMENTS-</h1>
-            <div class="task">
-                <a href="/resultstdwise.html"><h2>Check Results</h2></a>
-            </div>
-            <div class="task">
-                <a href="#"><h2>Check Attendance</h2></a>
-            </div>
-    </div>
-    <a href="#">
-        <div class="xen">
-            <div>
-                Developer
-            </div>
-            <div>
-                XENON112
-            </div>
-        </div>
-    </a>
-</body>
+  <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Gotu&display=swap" rel="stylesheet">
+    
+  <table>
+        <caption>शाळा व्यवस्थापन समिती</br>जि.प.शाळा निळगव्हाण</caption>
+        <thead>
+          <tr>
+            <th scope="col">सदस्याचे नाव
+              </th>
+            <th scope="col">पदनाम</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Account">श्री.दीपक एकनाथ सोनवणे </td>
+            <td data-label="Due Date"> अध्यक्ष </td>
+          </tr>
+          <tr>
+            <td data-label="Account">श्री.संतोष बापू मोरे</td>
+            <td data-label="Due Date"> उपाध्यक्ष</td>
+          </tr>
+          <tr>
+            <td data-label="Account">सौ.सुनिता सचिन मोरे</td>
+            <td data-label="Due Date"> सदस्या</td>
+          </tr>
+          <tr>
+            <td data-label="Account">श्री.चुनीलाल भिकन मोरे </td>
+            <td data-label="Due Date"> सदस्य </td>
+          </tr>
+          <tr>
+            <td data-label="Account">सौ.सविता प्रवीण मोरे </td>
+            <td data-label="Due Date"> सदस्या</td>
+          </tr>
+          <tr>
+            <td data-label="Account">सौ.सरला चंदू माळीच</td>
+            <td data-label="Due Date"> सदस्या</td>
+          </tr>
+          <tr>
+            <td data-label="Account">सौ.नीता शांताराम अहिरे</td>
+            <td data-label="Due Date"> सदस्या </td>
+          </tr>
+          <tr>
+            <td data-label="Account">सौ.अनिता भटू सोनवणे</td>
+            <td data-label="Due Date"> सदस्या</td>
+          </tr>
+          <tr>
+            <td data-label="Account">श्री.वनराज दगा अहिरे </td>
+            <td data-label="Due Date"> शिक्षण तज्ज्ञ</td>
+          </tr>
+          <tr>
+            <td data-label="Account">श्री.शशिकांत दगा बच्छाव</td>
+            <td data-label="Due Date"> शिक्षक प्रतिनिधी </td>
+          </tr>
+          <tr>
+            <td scope="row" data-label="Account">श्री.सतीश साहेबराव मराठे </td>
+            <td data-label="Due Date">सचिव</td>
+          </tr>
+        </tbody>
+      </table>
+      
 </html>
+
+<style>
+  html{
+                font-family: 'Gotu', sans-serif,'Amita', cursive;
+  }
+  body {
+         background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0, #003073), color-stop(100%, #029797));
+         background-image: -webkit-linear-gradient(135deg, #003073, #029797);
+         background-image: -moz-linear-gradient(45deg, #003073, #029797);
+         background-image: -ms-linear-gradient(45deg, #003073 0, #029797 100%);
+         background-image: -o-linear-gradient(45deg, #003073, #029797);
+         background-image: linear-gradient(135deg, #003073, #029797);
+         text-align: center;
+         color: whitesmoke;
+     }
+
+table {
+border-collapse: collapse;
+margin: auto;
+padding: 0;
+width: 80%;
+table-layout: fixed;
+}
+
+table caption {
+font-size: 3em;
+margin: .5em 0 .75em;
+}
+
+table tr {
+/* border: 1px solid rgb(75, 3, 45); */
+padding: .35em;
+}
+
+table th,
+table td {
+padding: .625em;
+text-align: center;
+font-size: 2em;
+}
+
+table th {
+font-size: 2em;
+letter-spacing: .1em;
+}
+
+@media screen and (max-width: 600px) {
+table {
+ border: 0;
+}
+
+table caption {
+ font-size: 2em;
+}
+
+table thead {
+ border: none;
+ clip: rect(0 0 0 0);
+ /* height: 1px; */
+ margin: -1px;
+ overflow: hidden;
+ padding: 0;
+ position: absolute;
+ /* width: 1px; */
+}
+
+table tr {
+ border-bottom: 3px solid #ddd;
+ display: block;
+ margin-bottom: .625em;
+}
+
+table td {
+ border-bottom: 1px solid #ddd;
+ display: block;
+ font-size: 2em;
+ text-align: right;
+}
+
+table td::before {
+ /*
+ * aria-label has no advantage, it won't be read inside a table
+ content: attr(aria-label);
+ */
+ content: attr(data-label);
+ float: left;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+table td:last-child {
+ border-bottom: 0;
+}
+}
+</style>
