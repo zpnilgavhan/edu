@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>होम</title>
     <link href="https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Gotu&display=swap" rel="stylesheet"> 
     <style>
         html{
@@ -66,18 +66,35 @@
             flex-wrap: wrap;
             justify-content: center;
         }
-        .recent{
-            margin: 3pxpx auto;
+        .recent1{
+            margin: 5px auto;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            border: solid 2vh rgb(33, 63, 53);
             border-radius: 25px;
             width: 90%;
-            position : relative;
-            top : 5vh;
-            background-color: #464646;
-            border: solid black 2vh;
+            position: fixed;
+            bottom: 10%;
+            right : 3vh;
+            /* right:10%; */
+            zoom: 1;
+            text-align: center;
+        }
+        .recent{
+            margin: 5px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            border-radius: 25px;
+            width: 90%;
+            position: fixed;
+            margin : auto;
+            top: 20%;
+            /* right:10%; */
+            zoom: 1;
+            text-align: center;
+            font-weight: 500; 
+            background-color: #464646; 
             text-align: center;
         }
        .task{
@@ -89,20 +106,6 @@
        .task:hover{
             color: rgb(62, 236, 9);
        }
-       .xen2{
-            /* float: right; */
-            position: fixed;
-            margin : auto;
-            width: 40vh;
-            bottom: 22%;
-            right: 8%;
-            zoom: 1;
-            text-align: center;
-            font-weight: 500;
-            border: solid black 2vh;
-            border-radius: 25px;
-            padding : 3px;
-        }
        .xen{
             /* float: right; */
             position: fixed;
@@ -114,19 +117,15 @@
             background-color: blueviolet;
             padding: 1%;
         }
-        .redt{
-            color: rgb(192, 183, 219);
-            font-weight: 900;
-            border: solid 1vh black;
-            width: 30vh;
-            padding: 5% 10%  ;
-            border-radius: 20px;
-            background-color: #464646;
-        }
-        .welcome{
-            font-size: large;
-            margin-top: 3px;
-            
+        .xen2{
+            /* float: right; */
+            text-align: center;
+            position: fixed;
+            right:25%;
+            margin : auto;
+            zoom: 1;
+            align-content: centre;
+            font-weight: 900; 
         }
     </style>
 </head>
@@ -140,15 +139,12 @@
             <a href="https://zpnilgavhan.github.io/edu/index.html">View In English
             </a>
         </div>
-        
     </div>
-    <div class="welcome">
-        जि.प.शाळा निळगव्हाण
-    </br> तुमचे सहर्ष स्वागत करत आहे !!
-    </div>
-
-    <div class="xen2">
-        <h2 class="redt">नवीन - घोषणा</h2>
+   <div class="xen2">
+        <h3>  जि.प.शाळा निळगव्हाण</h3>
+        <h3>तुमचे सहर्ष स्वागत करत आहे !!</h3>
+   </div>
+    <div class="recent1">
         <div class="task">
             <a href="https://zpnilgavhan.github.io/edu/resultstdwise.html"><h2>निकाल पाहा</h2></a>
         </div>
@@ -159,17 +155,6 @@
             <a href="https://zpnilgavhan.github.io/edu/flex.html"><h2>शाळा व्यवस्थापन </br>समिती पाहा</h2></a>
         </div>
     </div>
-                
-    <!-- <div class="recent">
-            <div class="task">
-                
-                <a href="https://zpnilgavhan.github.io/edu/resultstdwise.html"><h3>Present Days : </h3></a>
-            </div>
-            <div class="task">
-                <a href="https://zpnilgavhan.github.io/edu/attendancestdwise.html"><h3>Total Working Days : </h3></a>
-            </div>
-    </div> -->
-
 </div>
     <a href="#">
         <div class="xen">
